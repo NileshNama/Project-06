@@ -1,0 +1,143 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Allerta',sans-serif;
+    height: 100vh;
+}
+
+
+#navbarMonstera{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 8rem;
+    width: 80vw;
+    margin: auto;
+}
+
+#navFirst img{
+    width: 7rem;
+}
+
+#navMid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#navMid div{
+    margin-right: 5rem;
+}
+
+#navMid div:first-child{
+    padding-bottom: 5px;
+    border-bottom: 2px solid #000;
+}
+
+#navEnd{
+    display: flex;
+}
+#navEnd div{
+    margin-right: 2rem;
+}
+
+
+#midWhole{
+    width: 80vw;
+    margin: auto;
+}
+
+#midWholePart1{
+    width: 50vw;
+    line-height: 1.3;
+    margin-top: 7rem;
+}
+
+#midWholePart11{
+    margin-bottom: 1.5rem;
+}
+
+#midWholePart11 div ul li:first-child{
+    font-size: 2.5rem;
+    margin-bottom: -1rem;
+    font-weight: 900;
+}
+
+#midWholePart11 div ul li:nth-child(3), #midWholePart11 div ul li:nth-child(4){
+    font-size: 1rem;
+}
+
+#imgMain{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 40rem;
+}
+
+#midWholePart121{
+    font-size: .8rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    
+}
+
+#midWholePart121 div{
+    margin-right: .5rem;
+
+}
+
+#midWholePart122 img{
+    height: 15px;
+   
+}
+
+#midWholePart122{
+    position: absolute;
+    right: 33rem;
+    bottom: .3rm;
+}
+#midWholePart121 div h1{
+    background-color: #466d4f;
+    padding: .7rem 2rem;
+    border-radius: 30px;
+}
+
+#midWholePart13{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+.midWholePart13Parts{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 1rem;
+}
+
+#feeding {
+    height: 60px;
+    margin-right: 16px;
+}
+
+#light{
+    height: 60px;
+    margin-right: 16px;
+}
+
+#care{
+    height: 60px;
+    margin-right: 16px;
+}
+
+.text{
+    font-size: 12px;
+    
+}
